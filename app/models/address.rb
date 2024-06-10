@@ -1,5 +1,5 @@
 class Address < ApplicationRecord
   has_many :orders
-  has_many :addresses as: :addressable
+  has_many :customers
   belongs_to :shop
 end
